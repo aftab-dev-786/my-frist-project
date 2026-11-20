@@ -1,0 +1,24 @@
+.item-box{
+    background-color: rgb(113, 113, 223);
+    width: 250px;
+    height: 250px;
+}
+.item-button{
+    padding: 10px 0px;
+    border-radius: 7px;
+    border: none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.edit-button{
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(235, 143, 245);
+    color: black;
+    padding: 10px 0px;
+
+
+}

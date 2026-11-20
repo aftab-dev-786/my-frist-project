@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style/listing.css">
+        <script src="./script/listing.js" defer></script>
+    </head>
+    <body>
+        <div class="frutes">
+            <p>Mango</p>
+            <p>Papaya</p>
+            <p>Banana</p>
+            <p>Apple</p>
+            <p>Orange</p>
+            <p>Grapes</p>
+        </div>
+             
+         <div class="frutes-images">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRabXQK5DUlCBtIa1WDzyCJSkSOtZpYJFncmlM3yrt2cKSbTPcXFk-PyrI&s=10" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZG9gqD5vGss1DXjcnHZRIVitta5LoL41tytjx7TJmpPcCwDMhPJGzwVQ&s=10" alt="">
+                <img src="https://media.istockphoto.com/id/174959827/photo/banana.jpg?s=612x612&w=is&k=20&c=Dxrn3rrvYC17FhznO9nImDr9dJmmkk4Fmt3jhIRwuu0=" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9k3XQLCyAR61Bd2tBirUCMAK-33dKyf9vKcfB5Eh4exzYxRoV3RjP9mI&s=10" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5glEghsA6R3zBOILMTQ3tVKfJXzYce5dzr3j8oMZ6zyyf6Yd6DsVpHMQ&s=10" alt="">
+                <img src="https://cdn.pixabay.com/photo/2017/08/18/19/48/grapes-2656259_1280.jpg" alt="">
+            </div>
+
+        <div>
+            <div>
+                <form class="form-add">
+                    <div class="form-add-row">
+                        <div>Non retail price per kg</div>
+                        <input type="text" id="form-add-non-retail-price">
+                    </div>
+
+                     <div class="form-add-row">
+                        <div>Retail price per kg</div>
+                        <input type="text" id="form-add-retail-price">
+                    </div>
+
+                    <div class="form-add-row">
+                        <div>
+                            Fruit
+                        </div>
+                        <select id="form-add-fruit">
+                            <option value="mango">Mango</option>
+                            <option value="papaya">Papaya</option>
+                            <option value="orange">Orange</option>
+                            <option value="apple">Apple</option>
+                            <option value="grapes">Grapes</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button onclick="addFruit(event)">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="item-read-write" class="item-read-write">
+
+        </div>
+        
+    </body>
+</html>

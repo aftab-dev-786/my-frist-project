@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: rgb(143, 199, 125);
+    color: white;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+
+.header-button{
+    padding: 10px 30px;
+    color:rgb(18, 110, 239);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-tag{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.form-row{
+    display: flex;
+    gap: 60px;
+}
+
+.form-button{
+    width: 100px;
+}
+

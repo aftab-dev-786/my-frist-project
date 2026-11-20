@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style/main.css">
+        <script src="./script/main.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <div>Test app</div>
+            <div class="header-right">
+                <button id="header-listing" class="header-listing">
+                    <a href="./listing.html">listing</a>
+                </button>
+            </div>
+            <div class="header-right">
+                <button id="header-items-list" class="header-items-list">
+                    <a href="./items.html">Items</a>
+                </button>
+            </div>
+            <div class="header-right">
+                <div>Login</div>
+                <button id="login-button" class="header-button" onmouseover="buttonStyler()" onmouseout="buttonStyleResetter()">Login</button>
+            </div>
+        </div>
+
+        <div>
+            <form class="form-tag" id="form-tag">
+                <div class="form-row">
+                    <div>First Name</div>
+                    <input type="text" name="First Name" id="fName" class="fName">
+                </div>
+
+                 <div class="form-row">
+                    <div>Last Name</div>
+                    <input type="text" name="Last Name" id="lName" class="lName">
+                </div>
+
+                <button class="form-button" onclick="fullNameShower(event)">Submit</button>
+
+            </form>
+        </div>
+    </body>  
+</html>

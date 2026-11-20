@@ -1,0 +1,37 @@
+.frutes{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 500;
+
+}
+.frutes-images{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    gap: 5px;
+}
+
+
+
+
+
+.form-add{
+    background-color: rgb(12, 148, 172);
+    padding: 20px;
+    width: 400px
+
+}
+
+.form-add-row{
+    display: flex;
+    margin: 10px 0px;
+    gap: 20px;
+    background-color: azure;
+    padding: 10px 0px; 
+}
+
+.item-read-write{
+    color: black;
+}

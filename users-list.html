@@ -1,0 +1,70 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./style/users-list.css">
+        <script src="./script/users-list.js" defer></script>
+    </head>
+
+    <body>
+
+        <div class="users-table">
+
+            <div class="users-table-header">
+
+                <div>UserId</div>
+                <div>FirstName</div>
+                <div>LastName</div>
+                <div>Mobile</div>
+                <div>Email</div>
+                <div>Adhar Number</div>
+                <div>Admission Status</div>
+
+            </div>
+
+            <div class="table-data" id="table-data">
+            </div>
+
+        </div>
+
+        <form class="form">
+
+            <div>
+
+                <div class="form-row" id="form-user-id">
+                </div>
+
+                <div class="form-row">
+                    <div>First name</div>
+                    <input type="text" id="first-name">
+                </div>
+
+                <div class="form-row">
+                    <div>Last name</div>
+                    <input type="text" id="last-name">
+                </div>
+
+                <div class="form-row">
+                    <div>Mobile Number</div>
+                    <input type="text" id="mobile-number">
+                </div>
+
+                <div class="form-row">
+                    <div>Email</div>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="form-row">
+                    <div>Adhar Number</div>
+                    <input type="text" id="adhar-number">
+                </div>
+                 
+            </div>
+
+            <button class="form-button" onclick="createOrUpdateUser(event)">
+                submit
+            </button>
+
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,52 @@
+
+.form{
+    background-color: rgb(142, 217, 239);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.form-row{
+    display: flex;
+    margin: 0px 0px 10px 0px;
+    gap: 20px;
+}
+
+.form-button{
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(7, 52, 73);
+}
+
+.users-table-header{
+    display: flex;
+    background-color: rgb(20, 118, 184);
+    color: white;
+    width: fit-content;
+}
+
+.users-table-row{
+    display: flex;
+}
+
+.users-table-header > div{
+    min-width: 120px;
+    border: 1px solid black;
+    padding: 2px 4px;
+}
+
+.users-table-row > div{
+    width: 120px;
+    border: 1px solid black;
+    padding: 2px 4px;
+    overflow: clip;
+}
+
+/* Admission Status Selector */
+
+.users-table-row select{
+    width: 110px;
+    padding: 4px;
+    cursor: pointer;
+}
